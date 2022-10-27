@@ -1,10 +1,9 @@
 body{
     /* background: url("../images/fondo1.png") no-repeat center top / cover fixed, url("../images/fondo2.png") no-repeat center bottom / cover fixed; */
-    background: url(../images/fondo.jpg) repeat-y, 
-                url(../images/verdura1.png) no-repeat;
-    background-position: center, left center;
-    background-size: cover, contain;
-    background-attachment: fixed;
+    background: url(../images/verdura3.png) left bottom no-repeat fixed,
+                url(../images/verdura4.png) right top no-repeat fixed,
+                url(../images/fondo.jpg) center no-repeat fixed;
+        background-size: 30%, 20%, cover;
                 
 }
 
@@ -32,17 +31,14 @@ p{
 
 .navbar{
     background: rgba(255, 255, 255, 0.506) !important;
-    /* background: rgba(79, 184, 72, 0.506) !important; */
-    /* background: #50b848; */
-    /* background: #fff;
-    border-bottom: 3px solid #50b848; */
-    /* position: sticky;
-    top: 0; */
+    display: none;
 }
 
 .navbar>.container{
     justify-content: center;
 }
+
+/* HERO */
 
 #rev_main{
     display: grid;
@@ -52,7 +48,14 @@ p{
 
 #rev_main img{
     width: 100%;
+    max-width: 500px !important;
 }
+
+/* PLECA APOYO */
+
+/* #our-feature{
+    background-color: #384141;
+} */
 
 
 #services-slider{
@@ -69,7 +72,6 @@ p{
 }
 
 #our-team{
-    background: url("../images/verdura2.png") no-repeat right 200px / 300px;
     padding-top: 2em;
     margin-bottom: 3em;
 }
@@ -92,12 +94,31 @@ p{
 #premios h2{
     color: #384141;
     font-weight: bold;
-    margin-bottom: 1em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+#premios .item{
+    background: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5em;
 }
 
 #premios #services-slider .owl-item.center .service-box{
     /* background: rgb(247 174 26 / 100%); */
     background: none;
+}
+
+#premios #services-slider .service-box p{
+    font-size: 1.5em;
+}
+
+#premios #services-slider .service-box p span{
+    display: block;
+    font-size: 0.8em;
 }
 
 #premios #services-slider .service-box{
@@ -112,12 +133,23 @@ p{
 
 #premios .owl-carousel .owl-stage{
     display: flex;
-    align-items: center;
+    align-items: stretch;
+}
+
+/* BASES */
+
+#our-apps .heading-title h2{
+    text-align: center !important;
 }
 
 #our-apps h3{
     color: #384141;
     font-weight: bold;
+    font-size: 2em;
+}
+
+#our-apps p{
+    font-size: 1.2em;
 }
 
 #app-feature .feature-item:hover h3 span{
@@ -142,12 +174,6 @@ p{
     display: none;
 }
 
-.pricing-currency{
-    font-size: 1.5em !important;
-    margin-bottom: 1em;
-    display: block;
-}
-
 .pricing-item.sale::after,
 .shopping-box .sale::after{
     display: none;
@@ -159,5 +185,30 @@ p{
 
 
 #pricing .pricing-item{
-    background: rgba(255, 255, 255, 0.7;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+#pricing .pricing-item .pricing-price{
+    border: 0;
+}
+
+#pricing .pricing-price picture{
+    border-radius: 50%;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto auto 1em;
+}
+
+#pricing .pricing-price picture img{
+    object-position: center;
+    object-fit: cover;
+}
+
+
+.pricing-currency{
+    font-size: 1.5em !important;
+    margin-bottom: 1em;
+    display: block;
 }
