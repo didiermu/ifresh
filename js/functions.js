@@ -1363,7 +1363,7 @@ jQuery(($) => {
             jsFileLocation: "js/revolution/",
             sliderLayout: "fullscreen",
             dottedOverlay: "none",
-            delay: 9000,
+            delay: 5000,
             navigation: {
                 keyboardNavigation: "off",
                 keyboard_direction: "horizontal",

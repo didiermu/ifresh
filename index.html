@@ -66,31 +66,59 @@
             </nav>
         </header>
         <!-- header -->
-        <!--Main Slider-->
-        <section id="main-banner-area" class="position-relative">
-            <div
-                id="revo_main_wrapper"
-                class="rev_slider_wrapper fullwidthbanner-container m-0 p-0 bg-dark"
-                data-alias="classic4export"
-                data-source="gallery"
-            >
-                <!-- START REVOLUTION SLIDER 5.4.1 fullwidth mode -->
-                <div
-                    id="rev_main"
-                    class="rev_slider fullwidthabanner white"
-                    data-version="5.4.1"
-                >
-                    <img
-                        class="img-fluid"
-                        src="images/banner-short.png"
-                        alt=""
-                    />
+        <section id="banner-info">
+            <img class="img-fluid" src="images/logo-ifresh.svg" alt="" />
+            <h1>PROMUEVE Y GANA</h1>
+        </section>
+
+        <section id="video">
+            <video src="video/video.mp4" controls preload="preload"></video>
+        </section>
+
+        <section
+            id="our-feature"
+            class="single-feature padding_bottom padding_top_half mt-1 mt-lg-n4 mt-md-n3"
+        >
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div
+                        class="col-lg-7 col-md-7 col-sm-7 text-sm-start text-center wow fadeInLeft"
+                        data-wow-delay="300ms"
+                    >
+                        <div class="heading-title mb-4">
+                            <h2 class="darkcolor font-normal bottom30">
+                                Prepárate con el contenido que te ofrecemos y
+                                gana increíbles
+                                <span class="defaultcolor">premios</span>
+                            </h2>
+                        </div>
+                        <!-- <p class="bottom35">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nunc mauris arcu, lobortis id interdum vitae,
+                            interdum eget elit. Curabitur quis urna nulla.
+                            Suspendisse potenti. Duis suscipit ultrices maximus.
+                        </p>
+                        <a
+                            href="#our-team"
+                            class="button btnsecondary gradient-btn pagescroll mb-sm-0 mb-4"
+                            >Learn More</a
+                        > -->
+                    </div>
+                    <div
+                        class="col-lg-5 col-md-5 col-sm-5 wow fadeInRight"
+                        data-wow-delay="300ms"
+                    >
+                        <div class="image">
+                            <img
+                                alt="SEO"
+                                src="images/joshua-mayo-KboMbhlRgGY-unsplash.jpg"
+                            />
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <!--Main Slider ends -->
 
-        <!-- Our Team-->
         <section
             id="our-team"
             class="padding_top half-section-alt teams-border"
@@ -200,56 +228,175 @@
                 </div>
             </div>
         </section>
-        <!-- Our Team ends-->
 
-        <!-- PLECA APOYO -->
-        <section
-            id="our-feature"
-            class="single-feature padding_bottom padding_top_half mt-1 mt-lg-n4 mt-md-n3"
-        >
+        <section id="premios">
             <div class="container">
-                <div class="row d-flex align-items-center">
-                    <div
-                        class="col-lg-7 col-md-7 col-sm-7 text-sm-start text-center wow fadeInLeft"
-                        data-wow-delay="300ms"
-                    >
-                        <div class="heading-title mb-4">
-                            <h2 class="darkcolor font-normal bottom30">
-                                Prepárate con el contenido que te ofrecemos y
-                                gana increíbles
-                                <span class="defaultcolor">premios</span>
-                            </h2>
-                        </div>
-                        <!-- <p class="bottom35">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nunc mauris arcu, lobortis id interdum vitae,
-                            interdum eget elit. Curabitur quis urna nulla.
-                            Suspendisse potenti. Duis suscipit ultrices maximus.
-                        </p>
-                        <a
-                            href="#our-team"
-                            class="button btnsecondary gradient-btn pagescroll mb-sm-0 mb-4"
-                            >Learn More</a
-                        > -->
-                    </div>
-                    <div
-                        class="col-lg-5 col-md-5 col-sm-5 wow fadeInRight"
-                        data-wow-delay="300ms"
-                    >
-                        <div class="image">
-                            <img
-                                alt="SEO"
-                                src="images/joshua-mayo-KboMbhlRgGY-unsplash.jpg"
-                            />
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>PREMIOS</h2>
+                        <div id="services-slider" class="owl-carousel">
+                            <div class="item">
+                                <div class="service-box">
+                                    <img src="images/heb.svg" alt="" />
+                                    <h4 class="bottom10 text-nowrap">
+                                        <a href="javascript:void(0)"
+                                            >1er lugar:</a
+                                        >
+                                    </h4>
+                                    <p>
+                                        Tarjeta HEB <span>con $15,000.00</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="service-box">
+                                    <img src="images/lavadora.png" alt="" />
+                                    <h4 class="bottom10 text-nowrap">
+                                        <a href="javascript:void(0)"
+                                            >2do lugar:</a
+                                        >
+                                    </h4>
+                                    <p>
+                                        Centro de lavado
+                                        <span>con valor de $12,000.00</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="service-box">
+                                    <img src="images/tv.png" alt="" />
+                                    <h4 class="bottom10 text-nowrap">
+                                        <a href="javascript:void(0)"
+                                            >3er lugar</a
+                                        >
+                                    </h4>
+                                    <p>
+                                        Televisión de 50"
+                                        <span>con valor de $9,000.</span>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- FIN PLECA APOYO -->
+
+        <!-- <section id="main-banner-area" class="position-relative">
+            <h2>PREMIOS</h2>
+            
+            <div
+                id="revo_main_wrapper"
+                class="rev_slider_wrapper fullwidthbanner-container m-0 p-0 bg-dark"
+                data-alias="classic4export"
+                data-source="gallery"
+            >
+                
+                <div
+                    id="rev_main"
+                    class="rev_slider fullwidthabanner white"
+                    data-version="5.4.1"
+                >
+                    <ul>
+
+                        <li
+                            data-index="rs-01"
+                            data-transition="fade"
+                            data-slotamount="default"
+                            data-easein="Power100.easeIn"
+                            data-easeout="Power100.easeOut"
+                            data-masterspeed="2000"
+                            data-fsmasterspeed="1500"
+                            data-param1="01"
+                        >
+                            
+                            <img
+                                src="images/banner1-1.png"
+                                alt=""
+                                data-bgposition="center center"
+                                data-bgfit="cover"
+                                data-bgrepeat="no-repeat"
+                                data-bgparallax="10"
+                                class="rev-slidebg"
+                                data-no-retina
+                            />
+                        </li>
+                        
+                        <li
+                            data-index="rs-02"
+                            data-transition="fade"
+                            data-slotamount="default"
+                            data-easein="Power3.easeInOut"
+                            data-easeout="Power3.easeInOut"
+                            data-masterspeed="2000"
+                            data-fsmasterspeed="1500"
+                            data-param1="02"
+                        >
+                         
+                            <img
+                                src="images/banner1-2.png"
+                                alt=""
+                                data-bgposition="center center"
+                                data-bgfit="cover"
+                                data-bgrepeat="no-repeat"
+                                data-bgparallax="10"
+                                class="rev-slidebg"
+                                data-no-retina
+                            />
+                        </li>
+                       
+                        <li
+                            data-index="rs-03"
+                            data-transition="fade"
+                            data-slotamount="default"
+                            data-easein="Power3.easeInOut"
+                            data-easeout="Power3.easeInOut"
+                            data-masterspeed="2000"
+                            data-fsmasterspeed="1500"
+                            data-param1="03"
+                        >
+                          
+                            <img
+                                src="images/banner1-3.png"
+                                alt=""
+                                data-bgposition="center center"
+                                data-bgfit="cover"
+                                data-bgrepeat="no-repeat"
+                                data-bgparallax="10"
+                                class="rev-slidebg"
+                                data-no-retina
+                            />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section> -->
+        <!-- <section id="main-banner-area" class="position-relative">
+            <div
+                id="revo_main_wrapper"
+                class="rev_slider_wrapper fullwidthbanner-container m-0 p-0 bg-dark"
+                data-alias="classic4export"
+                data-source="gallery"
+            >
+                
+                <div
+                    id="rev_main"
+                    class="rev_slider fullwidthabanner white"
+                    data-version="5.4.1"
+                >
+                    <img
+                        class="img-fluid"
+                        src="images/banner-short.png"
+                        alt=""
+                    />
+                    <h1>PROMUEVE Y GANA</h1>
+                </div>
+            </div>
+        </section> -->
 
         <!--Some Services-->
-        <section id="premios">
+        <!-- <section id="premios">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -301,7 +448,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!--Some Services ends-->
 

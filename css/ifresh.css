@@ -1,9 +1,12 @@
+
+
 body{
+    --color-primario: #f6ad1a;
+    --color-secundario: #50b748;
     /* background: url("../images/fondo1.png") no-repeat center top / cover fixed, url("../images/fondo2.png") no-repeat center bottom / cover fixed; */
     background: url(../images/verdura3.png) left bottom no-repeat fixed,
-                url(../images/verdura4.png) right top no-repeat fixed,
-                url(../images/fondo.jpg) center no-repeat fixed;
-        background-size: 30%, 20%, cover;
+                url(../images/verdura4.png) right top no-repeat fixed;
+        background-size: 30%, 20%;
                 
 }
 
@@ -38,24 +41,41 @@ p{
     justify-content: center;
 }
 
-/* HERO */
+/******************************** HERO */
 
-#rev_main{
+#banner-info{
     display: grid;
     place-items: center;
+    place-content: center;
     background: transparent;
+    padding: 2em 0;
+    min-height: 100vh;
 }
 
-#rev_main img{
+#banner-info img{
     width: 100%;
-    max-width: 500px !important;
+    max-width: 400px !important;
+    margin-bottom: 2.5em;
 }
 
-/* PLECA APOYO */
+#banner-info h1{
+    font-weight: bold;
+    color: var(--color-secundario);
+}
 
-/* #our-feature{
-    background-color: #384141;
-} */
+
+/****************************** SLIDER PREMIOS */
+
+#main-banner-area h2{
+    text-align: center;
+    color: var(--color-primario);
+    font-weight: bold;
+}
+
+#main-banner-area .numbered .tp-bullet .tp-count{
+    color: var(--color-primario);
+    font-weight: bold;
+}
 
 
 #services-slider{
@@ -71,9 +91,17 @@ p{
     justify-content: space-between;
 }
 
+/********************************** PLECA APOYO */
+
+#our-feature h2 span{
+    color: var(--color-secundario);
+}
+
+
+
 #our-team{
-    padding-top: 2em;
-    margin-bottom: 3em;
+    padding-top: 7em;
+    margin-bottom: 7em;
 }
 
 .our-team .owl-carousel .owl-stage{
@@ -86,13 +114,16 @@ p{
     background: #f7ae1a;
 }
 
-/* CURSOS */
+#our-team .heading-title h2{
+    color: var(--color-primario);
+}
+
 
 
 /* PREMIOS */
 
 #premios h2{
-    color: #384141;
+    color: var(--color-primario);
     font-weight: bold;
     text-align: center;
     margin-bottom: 0.5em;
@@ -100,6 +131,7 @@ p{
 
 #premios .item{
     background: rgba(255, 255, 255, 0.7);
+    border: 1px solid var(--color-primario);
     height: 100%;
     display: flex;
     align-items: center;
@@ -140,10 +172,11 @@ p{
 
 #our-apps .heading-title h2{
     text-align: center !important;
+    color: var(--color-primario);
 }
 
 #our-apps h3{
-    color: #384141;
+    color: var(--color-secundario);
     font-weight: bold;
     font-size: 2em;
 }
@@ -165,8 +198,19 @@ p{
     font-size: 2em;
 }
 
+
+/********************************** GANADORES */
+
 #pricing{
     background: none;
+}
+
+#pricing h2{
+    color: var(--color-primario);
+}
+
+#pricing .pricing-price h1, #pricing .pricing-price span{
+    color: #384141 !important;
 }
 
 .pricing-item.sale::before,
@@ -211,4 +255,12 @@ p{
     font-size: 1.5em !important;
     margin-bottom: 1em;
     display: block;
+}
+
+
+/************************ VIDEO */
+
+#video video{
+    aspect-ratio: 16 / 9;
+    width: 100%;
 }
