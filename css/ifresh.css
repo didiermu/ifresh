@@ -1,0 +1,163 @@
+body{
+    /* background: url("../images/fondo1.png") no-repeat center top / cover fixed, url("../images/fondo2.png") no-repeat center bottom / cover fixed; */
+    background: url(../images/fondo.jpg) repeat-y, 
+                url(../images/verdura1.png) no-repeat;
+    background-position: center, left center;
+    background-size: cover, contain;
+    background-attachment: fixed;
+                
+}
+
+p{
+    color: #000;
+}
+
+.heading-title h2{
+    /* color: #fff; */
+    font-weight: bold;
+}
+
+.heading_space{
+    font-size: 1.2em;
+    
+}
+
+.defaultcolor{
+    color: #fff;
+}
+
+.bg-dark{
+    background-color: transparent !important;
+}
+
+.navbar{
+    background: rgba(255, 255, 255, 0.506) !important;
+    /* background: rgba(79, 184, 72, 0.506) !important; */
+    /* background: #50b848; */
+    /* background: #fff;
+    border-bottom: 3px solid #50b848; */
+    /* position: sticky;
+    top: 0; */
+}
+
+.navbar>.container{
+    justify-content: center;
+}
+
+#rev_main{
+    display: grid;
+    place-items: center;
+    background: transparent;
+}
+
+#rev_main img{
+    width: 100%;
+}
+
+
+#services-slider{
+    margin-top: 0;
+}
+
+.half-section-alt::before{
+    background: none;
+}
+
+#slider-contenido{
+    display: flex;
+    justify-content: space-between;
+}
+
+#our-team{
+    background: url("../images/verdura2.png") no-repeat right 200px / 300px;
+    padding-top: 2em;
+    margin-bottom: 3em;
+}
+
+.our-team .owl-carousel .owl-stage{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-content::before{
+    background: #f7ae1a;
+}
+
+/* CURSOS */
+
+
+/* PREMIOS */
+
+#premios h2{
+    color: #384141;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#premios #services-slider .owl-item.center .service-box{
+    /* background: rgb(247 174 26 / 100%); */
+    background: none;
+}
+
+#premios #services-slider .service-box{
+    /* background: rgb(247 174 26 / 60%); */
+    background: none;
+}
+
+#premios .owl-carousel .owl-stage img{
+    max-width: 200px;
+    margin: auto auto 1em;
+}
+
+#premios .owl-carousel .owl-stage{
+    display: flex;
+    align-items: center;
+}
+
+#our-apps h3{
+    color: #384141;
+    font-weight: bold;
+}
+
+#app-feature .feature-item:hover h3 span{
+    color: #384141;
+}
+
+.service-box img{
+    margin-bottom: 1em;
+}
+
+.service-box h4{
+    color: #384141;
+    font-size: 2em;
+}
+
+#pricing{
+    background: none;
+}
+
+.pricing-item.sale::before,
+.shopping-box .sale::before{
+    display: none;
+}
+
+.pricing-currency{
+    font-size: 1.5em !important;
+    margin-bottom: 1em;
+    display: block;
+}
+
+.pricing-item.sale::after,
+.shopping-box .sale::after{
+    display: none;
+}
+
+#site-footer{
+    padding-top: 2em;
+}
+
+
+#pricing .pricing-item{
+    background: rgba(255, 255, 255, 0.7;
+}
