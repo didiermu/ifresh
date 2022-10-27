@@ -118,8 +118,20 @@ p{
     color: var(--color-primario);
 }
 
+#our-team .owl-carousel .owl-item .image{
+    display: grid;
+    background: #fff;
+    place-items: center;
+    padding: 2em 0;
+}
 
+#our-team .owl-carousel .owl-item img{
+    width: 50%;
+}
 
+#our-team .team-content{
+    height: auto;
+}
 /* PREMIOS */
 
 #premios h2{
@@ -179,10 +191,19 @@ p{
     color: var(--color-secundario);
     font-weight: bold;
     font-size: 2em;
+    
+}
+
+#our-apps h3 span{
+    -webkit-text-fill-color:#50b748;
 }
 
 #our-apps p{
     font-size: 1.2em;
+}
+
+#our-apps .app-slider-lock-btn{
+    display: none;
 }
 
 #app-feature .feature-item:hover h3 span{
