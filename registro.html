@@ -30,9 +30,9 @@
         <link rel="stylesheet" href="css/revolution/settings.css" />
         <link rel="stylesheet" href="css/style.css" />
 
-        <!-- NUEVOS -->
+        <!-- IFRES -->
         <link rel="stylesheet" href="css/ifresh.css" />
-        <script src="js/forms.js" defer></script>
+        <script src="js/formsRegistro.js" defer></script>
     </head>
     <body>
         <!--PreLoader-->
@@ -70,30 +70,8 @@
         </header>
         <!-- header -->
 
-        <!-- <section
-            id="main-banner-page"
-            class="position-relative page-header sign-in-header parallax section-nav-smooth login"
-        >
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 offset-lg-3">
-                        <div
-                            class="page-titles text-center padding_top padding_bottom"
-                        >
-                            <h2 class="font-xlight">Sign Into</h2>
-                            <h2 class="font-bold">Your Account To</h2>
-                            <h2 class="font-xlight">Use Best</h2>
-                            <h3 class="font-light pt-2">
-                                Offers And Facilities Provided By Us
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
         <!-- sign-in -->
-        <section id="sign-in" class="position-relative padding">
+        <section id="ourfaq" class="position-relative padding registro">
             <div class="container">
                 <div class="row">
                     <img
@@ -105,9 +83,8 @@
                         class="col-md-12 text-center wow fadeIn"
                         data-wow-delay="300ms"
                     >
-                        <h2 class="heading bottom30 darkcolor font-light2">
-                            <span class="font-normal">Comieza tu </span
-                            >aprendizaje
+                        <h2 class="heading bottom40 darkcolor font-light2">
+                            <span class="font-normal">Crear </span> cuenta
                             <span class="divider-center"></span>
                         </h2>
                         <div class="col-md-8 offset-md-2 heading_space">
@@ -117,38 +94,98 @@
                             </h3>
                         </div>
                     </div>
-                    <div class="col-lg-6 pe-lg-0 col-md-12 d-none d-lg-flex">
-                        <div class="image login-image h-100">
-                            <img
-                                src="images/joshua-mayo-KboMbhlRgGY-unsplash.jpg"
-                                alt=""
-                                class="w-100 h-100"
-                            />
-                        </div>
-                    </div>
-                    <div class="col-lg-6 ps-lg-0 col-md-12 whitebox">
+                    <div class="col-lg-6 col-md-12 col-sm-12 pe-lg-0 whitebox">
                         <div class="widget logincontainer">
                             <h3
-                                class="darkcolor bottom30 text-center text-lg-start"
+                                class="darkcolor bottom35 text-center text-md-start"
                             >
-                                Iniciar sesión
+                                Ingresa tu datos
                             </h3>
                             <form
-                                class="getin_form border-form form-login"
-                                id="login"
+                                class="getin_form border-form form-registro"
+                                id="register"
                             >
                                 <div class="row">
                                     <div class="col-md-12 col-sm-12">
                                         <div class="form-group bottom35">
                                             <label
-                                                for="loginEmail"
+                                                for="registerName"
+                                                class="d-none"
+                                            ></label>
+                                            <input
+                                                class="form-control"
+                                                type="text"
+                                                placeholder="Nombre completo:"
+                                                id="registerName"
+                                            />
+                                            <span class="error-input"
+                                                >*Campo obligatorio</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="form-group bottom35">
+                                            <label
+                                                for="registerName"
+                                                class="d-none"
+                                            ></label>
+                                            <input
+                                                class="form-control"
+                                                type="text"
+                                                placeholder="Tienda:"
+                                                id="tienda"
+                                            />
+                                            <span class="error-input"
+                                                >*Campo obligatorio</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="form-group bottom35">
+                                            <label
+                                                for="registerName"
+                                                class="d-none"
+                                            ></label>
+                                            <input
+                                                class="form-control"
+                                                type="text"
+                                                placeholder="Teléfono:"
+                                                id="telefono"
+                                            />
+                                            <span class="error-input"
+                                                >*Campo obligatorio</span
+                                            >
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="form-group bottom35">
+                                            <label
+                                                for="registerPassConfirm"
+                                                class="d-none"
+                                            ></label>
+                                            <input
+                                                class="form-control"
+                                                type="text"
+                                                placeholder="Número de empleado:"
+                                                id="empleado"
+                                            />
+                                            <span class="error-input"
+                                                >*Campo obligatorio</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="form-group bottom35">
+                                            <label
+                                                for="registerEmail"
                                                 class="d-none"
                                             ></label>
                                             <input
                                                 class="form-control"
                                                 type="email"
                                                 placeholder="Email:"
-                                                id="loginEmail"
+                                                id="registerEmail"
                                             />
                                             <span class="error-input"
                                                 >*Campo obligatorio</span
@@ -158,57 +195,48 @@
                                     <div class="col-md-12 col-sm-12">
                                         <div class="form-group bottom35">
                                             <label
-                                                for="loginPass"
+                                                for="registerPass"
                                                 class="d-none"
                                             ></label>
                                             <input
                                                 class="form-control"
                                                 type="password"
-                                                placeholder="Password:"
-                                                id="loginPass"
+                                                placeholder="Contraseña:"
+                                                id="registerPass"
                                             />
                                             <span class="error-input"
                                                 >*Campo obligatorio</span
                                             >
                                         </div>
                                     </div>
-                                    <!-- <div class="col-md-12 col-sm-12">
-                                        <div class="form-group bottom30 ml-1">
-                                            <div class="form-check text-left">
-                                                <input
-                                                    class="form-check-input"
-                                                    checked
-                                                    type="checkbox"
-                                                    value=""
-                                                    id="rememberMe"
-                                                />
-                                                <label
-                                                    class="form-check-label"
-                                                    for="rememberMe"
-                                                >
-                                                    Keep Me Signed In
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                    <div class="col-sm-12" id="caja-login">
-                                        <button
-                                            type="submit"
-                                            class="button gradient-btn"
-                                            id="btn-login"
-                                        >
-                                            Iniciar
-                                        </button>
 
-                                        <a
-                                            href="registro.html"
-                                            class="top30 mb-0 text-decoration-underline"
+                                    <div class="col-sm-12">
+                                        <button
+                                            id="btn-registro"
+                                            type="submit"
+                                            class="button gradient-btn w-100"
                                         >
-                                            Crear cuenta</a
-                                        >
+                                            Enviar
+                                        </button>
+                                        <p class="top20 log-meta">
+                                            <a
+                                                href="index.html"
+                                                class="text-decoration-underline"
+                                                >Iniciar sesión</a
+                                            >
+                                        </p>
                                     </div>
                                 </div>
                             </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block ps-lg-0">
+                        <div class="image login-image h-100">
+                            <img
+                                src="images/joshua-mayo-KboMbhlRgGY-unsplash.jpg"
+                                alt=""
+                                class="h-100"
+                            />
                         </div>
                     </div>
                 </div>
