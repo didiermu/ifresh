@@ -104,28 +104,47 @@ const valNum = (nameInput) => {
     }
 };
 
+/// COMBOS
+
+const valCombos = (nameInput) => {
+    if (nameInput.value == "") {
+        nameInput.parentNode
+            .querySelector(".error-input")
+            .classList.add("show");
+    }
+
+    nameInput.onchange = () => {
+        if (!nameInput.value == "") {
+            nameInput.parentNode
+                .querySelector(".error-input")
+                .classList.remove("show");
+        }
+    };
+};
 const validarFormRegistro = () => {
-    const formRegistro = document.querySelector(".form-registro"),
-        btnRegistro = document.querySelector("#btn-registro"),
+    const btnRegistro = document.querySelector("#btn-registro"),
         inputRegisterName = document.querySelector("#registerName"),
-        inputTienda = document.querySelector("#tienda"),
+        inputRegisterPaterno = document.querySelector("#paterno"),
+        inputRegisterMaterno = document.querySelector("#materno"),
         inputTelefono = document.querySelector("#telefono"),
-        inputEmpleado = document.querySelector("#empleado"),
-        inputRegisterEmail = document.querySelector("#registerEmail"),
-        inputRegisterPass = document.querySelector("#registerPass");
+        inputTienda = document.querySelector("#tienda"),
+        inputRegisterEmail = document.querySelector("#registerEmail");
 
     btnRegistro.onclick = () => {
         valText(inputRegisterName);
-        valTextNum(inputTienda);
+        valText(inputRegisterPaterno);
+        valText(inputRegisterMaterno);
         valNum(inputTelefono);
-        valNum(inputEmpleado);
+        valCombos(inputTienda);
         valMail(inputRegisterEmail);
-        valTextNum(inputRegisterPass);
+
         let msjsError = document.querySelectorAll(".error-input.show");
         if (msjsError.length == 0) {
-            formRegistro.submit();
+            myModal.show();
+            myModalRegistro.hide();
+            // formRegistro.submit();
             console.log("si");
-            return true;
+            return false;
         } else {
             console.log("no");
             return false;
@@ -134,3 +153,15 @@ const validarFormRegistro = () => {
 };
 
 validarFormRegistro();
+
+var myModal = new bootstrap.Modal(document.getElementById("modal-success"));
+var myModalRegistro = new bootstrap.Modal(
+    document.getElementById("exampleModal")
+);
+
+const btnCerrarSucces = document.querySelector("#cerrar-success");
+
+btnCerrarSucces.onclick = () => {
+    const formRegistro = document.querySelector("#register");
+    formRegistro.submit();
+};

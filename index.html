@@ -29,10 +29,9 @@
         <link rel="stylesheet" href="css/revolution/navigation.css" />
         <link rel="stylesheet" href="css/revolution/settings.css" />
         <link rel="stylesheet" href="css/style.css" />
-
-        <!-- NUEVOS -->
         <link rel="stylesheet" href="css/ifresh.css" />
-        <script src="js/forms.js" defer></script>
+
+        <script src="js/formsRegistro.js" defer></script>
     </head>
     <body>
         <!--PreLoader-->
@@ -70,151 +69,711 @@
         </header>
         <!-- header -->
 
-        <!-- <section
-            id="main-banner-page"
-            class="position-relative page-header sign-in-header parallax section-nav-smooth login"
-        >
+        <section id="video">
+            <video src="video/video.mp4" controls preload="preload"></video>
+        </section>
+
+        <section id="premios">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 offset-lg-3">
+                    <div class="col-md-12">
+                        <h2>PREMIOS</h2>
+                        <div id="services-slider" class="owl-carousel">
+                            <div class="item">
+                                <div class="service-box">
+                                    <img src="images/tv.jpeg" alt="" />
+                                    <h4 class="bottom10 text-nowrap">
+                                        <a href="javascript:void(0)"
+                                            >1er lugar:</a
+                                        >
+                                    </h4>
+                                    <p>
+                                        1er lugar: Televisión de 60 pulgadas
+                                        <span>+ Tarjeta HEB $7,000.00</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="service-box">
+                                    <img src="images/asador.jpeg" alt="" />
+                                    <h4 class="bottom10 text-nowrap">
+                                        <a href="javascript:void(0)"
+                                            >2do lugar:</a
+                                        >
+                                    </h4>
+                                    <p>
+                                        2do lugar: Asador Legacy
+                                        <span>+ Tarjeta HEB $5,000.00</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="service-box">
+                                    <img src="images/heb.jpg" alt="" />
+                                    <h4 class="bottom10 text-nowrap">
+                                        <a href="javascript:void(0)"
+                                            >3er lugar</a
+                                        >
+                                    </h4>
+                                    <p>
+                                        Tarjeta HEB con valor de $5,000.00
+                                        <span>+ Tarjeta HEB $3,000.00</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ganadores -->
+        <section id="pricing" class="padding bglight">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 text-center">
                         <div
-                            class="page-titles text-center padding_top padding_bottom"
+                            class="heading-title darkcolor wow fadeInUp"
+                            data-wow-delay="300ms"
                         >
-                            <h2 class="font-xlight">Sign Into</h2>
-                            <h2 class="font-bold">Your Account To</h2>
-                            <h2 class="font-xlight">Use Best</h2>
-                            <h3 class="font-light pt-2">
-                                Offers And Facilities Provided By Us
-                            </h3>
+                            <h2 class="font-normal bottom30">GANADORES</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel owl-theme no-dots" id="price-slider">
+                    <div class="item">
+                        <div class="col-md-12">
+                            <div
+                                class="pricing-item wow fadeInUp animated sale"
+                                data-wow-delay="300ms"
+                                data-sale="1ER"
+                            >
+                                <div class="pricing-price darkcolor">
+                                    <span class="pricing-currency"
+                                        >2DO LUGAR</span
+                                    >
+                                    <picture>
+                                        <img
+                                            src="images/christina-wocintechchat-com-SJvDxw0azqw-unsplash.jpg"
+                                            alt=""
+                                        />
+                                    </picture>
+                                    <h1>
+                                        María <br />
+                                        Gomez
+                                    </h1>
+                                    <!-- <img
+                                        src="images/awesome-feature.png"
+                                        alt=""
+                                    /> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-12">
+                            <div
+                                class="pricing-item wow fadeInUp animated sale"
+                                data-wow-delay="300ms"
+                                data-sale="1ER"
+                            >
+                                <div class="pricing-price darkcolor">
+                                    <span class="pricing-currency"
+                                        >1ER LUGAR</span
+                                    >
+                                    <picture>
+                                        <img
+                                            src="images/christina-wocintechchat-com-SJvDxw0azqw-unsplash.jpg"
+                                            alt=""
+                                        />
+                                    </picture>
+                                    <h1>
+                                        Laura <br />
+                                        Flores
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-12">
+                            <div
+                                class="pricing-item wow fadeInUp animated sale"
+                                data-wow-delay="300ms"
+                                data-sale="1ER"
+                            >
+                                <div class="pricing-price darkcolor">
+                                    <span class="pricing-currency"
+                                        >3ER LUGAR</span
+                                    >
+                                    <picture>
+                                        <img
+                                            src="images/christina-wocintechchat-com-SJvDxw0azqw-unsplash.jpg"
+                                            alt=""
+                                        />
+                                    </picture>
+                                    <h1>
+                                        Carmen <br />
+                                        Muñoz
+                                    </h1>
+                                    <!-- <img
+                                        src="images/awesome-feature.png"
+                                        alt=""
+                                    /> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ganadores -->
+
+        <!-- bases -->
+        <section id="our-apps" class="padding">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <div
+                            class="heading-title bottom30 wow fadeInUp"
+                            data-wow-delay="300ms"
+                            style="
+                                visibility: visible;
+                                animation-delay: 300ms;
+                                animation-name: fadeInUp;
+                            "
+                        >
+                            <h2
+                                class="darkcolor font-normal text-center text-md-start"
+                            >
+                                BASES DEL PROGRAMA
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center" id="app-feature">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="text-center text-md-end">
+                            <div
+                                class="feature-item mt-3 wow fadeInLeft"
+                                data-wow-delay="300ms"
+                                style="
+                                    visibility: visible;
+                                    animation-delay: 300ms;
+                                    animation-name: fadeInLeft;
+                                "
+                            >
+                                <!-- <div class="icon">
+                                    <i class="fas fa-cog"></i>
+                                </div> -->
+                                <div class="text">
+                                    <h3 class="bottom15">
+                                        <span class="d-inline-block"
+                                            >Regístrate</span
+                                        >
+                                    </h3>
+                                    <p>
+                                        This is Photoshop's version of Lorem
+                                        Ipsum. Proin gravida nibh vel velit
+                                        auctor aliquet
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="feature-item mt-5 wow fadeInLeft"
+                                data-wow-delay="350ms"
+                                style="
+                                    visibility: visible;
+                                    animation-delay: 350ms;
+                                    animation-name: fadeInLeft;
+                                "
+                            >
+                                <!-- <div class="icon">
+                                    <i class="fas fa-edit"></i>
+                                </div> -->
+                                <div class="text">
+                                    <h3 class="bottom15">
+                                        <span class="d-inline-block"
+                                            >Infórmate</span
+                                        >
+                                    </h3>
+                                    <p>
+                                        This is Photoshop's version of Lorem
+                                        Ipsum. Proin gravida nibh vel velit
+                                        auctor aliquet
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="app-image top30">
+                            <div class="app-slider-lock-btn"></div>
+                            <div class="app-slider-lock">
+                                <img
+                                    src="images/iphone-slide-lock.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div
+                                id="app-slider"
+                                class="owl-carousel owl-theme owl-loaded owl-drag"
+                            >
+                                <div class="owl-stage-outer">
+                                    <div
+                                        class="owl-stage"
+                                        style="
+                                            transform: translate3d(
+                                                -470px,
+                                                0px,
+                                                0px
+                                            );
+                                            transition: all 0s ease 0s;
+                                            width: 1645px;
+                                        "
+                                    >
+                                        <div
+                                            class="owl-item cloned"
+                                            style="width: 235px"
+                                        >
+                                            <div class="item">
+                                                <img
+                                                    src="images/iphone-slide2.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="owl-item cloned"
+                                            style="width: 235px"
+                                        >
+                                            <div class="item">
+                                                <img
+                                                    src="images/iphone-slide3.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="owl-item active"
+                                            style="width: 235px"
+                                        >
+                                            <div class="item">
+                                                <img
+                                                    src="images/iphone-slide1.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="owl-item"
+                                            style="width: 235px"
+                                        >
+                                            <div class="item">
+                                                <img
+                                                    src="images/iphone-slide2.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="owl-item"
+                                            style="width: 235px"
+                                        >
+                                            <div class="item">
+                                                <img
+                                                    src="images/iphone-slide3.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="owl-item cloned"
+                                            style="width: 235px"
+                                        >
+                                            <div class="item">
+                                                <img
+                                                    src="images/iphone-slide1.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="owl-item cloned"
+                                            style="width: 235px"
+                                        >
+                                            <div class="item">
+                                                <img
+                                                    src="images/iphone-slide2.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-nav disabled">
+                                    <button
+                                        type="button"
+                                        role="presentation"
+                                        class="owl-prev"
+                                    >
+                                        <span aria-label="Previous"
+                                            >‹</span
+                                        ></button
+                                    ><button
+                                        type="button"
+                                        role="presentation"
+                                        class="owl-next"
+                                    >
+                                        <span aria-label="Next">›</span>
+                                    </button>
+                                </div>
+                                <div class="owl-dots disabled"></div>
+                            </div>
+                            <img src="images/iphone.png" alt="image" />
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="text-center text-md-start">
+                            <div
+                                class="feature-item mt-3 wow fadeInRight"
+                                data-wow-delay="300ms"
+                                style="
+                                    visibility: visible;
+                                    animation-delay: 300ms;
+                                    animation-name: fadeInRight;
+                                "
+                            >
+                                <!-- <div class="icon">
+                                    <i class="fas fa-code"></i>
+                                </div> -->
+                                <div class="text">
+                                    <h3 class="bottom15">
+                                        <span class="d-inline-block"
+                                            >Ponte las pilas</span
+                                        >
+                                    </h3>
+                                    <p>
+                                        This is Photoshop's version of Lorem
+                                        Ipsum. Proin gravida nibh vel velit
+                                        auctor aliquet
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="feature-item mt-5 wow fadeInRight"
+                                data-wow-delay="350ms"
+                                style="
+                                    visibility: visible;
+                                    animation-delay: 350ms;
+                                    animation-name: fadeInRight;
+                                "
+                            >
+                                <!-- <div class="icon">
+                                    <i class="far fa-folder-open"></i>
+                                </div> -->
+                                <div class="text">
+                                    <h3 class="bottom15">
+                                        <span class="d-inline-block"
+                                            >GANA
+                                        </span>
+                                    </h3>
+                                    <p>
+                                        This is Photoshop's version of Lorem
+                                        Ipsum. Proin gravida nibh vel velit
+                                        auctor aliquet
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a
+                        href="#!"
+                        id="boton-registro-bases"
+                        class="button btnsecondary pagescroll mb-sm-0 mb-4"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
+                        >Regístrate aquí</a
+                    >
+                </div>
+            </div>
+        </section>
+        <!-- bases -->
+
+        <section id="stayconnect1" class="bglight position-relative padding">
+            <div class="container whitebox">
+                <h2>POLÍTICAS</h2>
+                <div class="row">
+                    <ul class="process-wrapp">
+                        <li
+                            class="whitecolor wow fadeIn"
+                            data-wow-delay="300ms"
+                        >
+                            <span class="pro-step bottom20">01</span>
+
+                            <p class="mt-n2 mt-sm-0">
+                                Es necesario registrarse para participar
+                            </p>
+                        </li>
+                        <li
+                            class="whitecolor wow fadeIn"
+                            data-wow-delay="400ms"
+                        >
+                            <span class="pro-step bottom20">02</span>
+
+                            <p class="mt-n2 mt-sm-0">
+                                Las 3 tiendas que tengan el mayor aumento de
+                                ventas respecto a las ventas del año anterior de
+                                la misma, serán las ganadoras.
+                            </p>
+                        </li>
+                        <li
+                            class="whitecolor wow fadeIn active"
+                            data-wow-delay="500ms"
+                        >
+                            <span class="pro-step bottom20">03</span>
+
+                            <p class="mt-n2 mt-sm-0">
+                                Las tiendas ganadoras se anunciarán en el sitio
+                                https:/ifreshbyheb.com.mx
+                            </p>
+                        </li>
+                        <li
+                            class="whitecolor wow fadeIn"
+                            data-wow-delay="600ms"
+                        >
+                            <span class="pro-step bottom20">04</span>
+
+                            <p class="mt-n2 mt-sm-0">
+                                Los premios se entregarán en las tiendas
+                                ganadoras durante el mes posterior al jefe de
+                                departamento.
+                            </p>
+                        </li>
+                        <li
+                            class="whitecolor wow fadeIn"
+                            data-wow-delay="700ms"
+                        >
+                            <span class="pro-step bottom20">05</span>
+
+                            <p class="mt-n2 mt-sm-0">
+                                No considera envío de premios.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="widget text-center w-100">
+                            <div class="contact-box">
+                                <span class="icon-contact defaultcolor"
+                                    ><i class="fas fa-mobile-alt"></i
+                                ></span>
+                                <p class="bottom0">
+                                    Es necesario registrarse para participar
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="widget text-center w-100">
+                            <div class="contact-box">
+                                <span class="icon-contact defaultcolor"
+                                    ><i class="fas fa-map-marker-alt"></i
+                                ></span>
+                                <p class="bottom0">
+                                    Las 3 tiendas que tengan el mayor aumento de
+                                    ventas respecto a las ventas del año
+                                    anterior de la misma, serán las ganadoras.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 d-flex">
+                        <div class="widget text-center w-100">
+                            <div class="contact-box">
+                                <span class="icon-contact defaultcolor"
+                                    ><i class="far fa-envelope"></i
+                                ></span>
+                                <p class="bottom0">
+                                    <a href="mailto:admin@website.com"
+                                        >admin@website.com</a
+                                    >
+                                </p>
+                                <p class="d-block">
+                                    <a href="mailto:email@website.com"
+                                        >email@website.com</a
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 d-flex">
+                        <div class="widget text-center w-100">
+                            <div class="contact-box">
+                                <span class="icon-contact defaultcolor"
+                                    ><i class="far fa-clock"></i
+                                ></span>
+                                <p class="bottom0">
+                                    UTC−05:00
+                                    <span class="d-block">UTC+01:00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- <section id="banner-info">
+            <img class="img-fluid" src="images/banner-short.png" alt="" />
+            <h1>PROMUEVE Y GANA</h1>
+        </section> -->
+
+        <!-- <section
+            id="our-feature"
+            class="single-feature padding_bottom padding_top_half mt-1 mt-lg-n4 mt-md-n3"
+        >
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div
+                        class="col-lg-7 col-md-7 col-sm-7 text-sm-start text-center wow fadeInLeft"
+                        data-wow-delay="300ms"
+                    >
+                        <div class="heading-title mb-4">
+                            <h2 class="darkcolor font-normal bottom30">
+                                Prepárate con el contenido que te ofrecemos y
+                                gana increíbles
+                                <span class="defaultcolor">premios</span>
+                            </h2>
+                        </div>
+                     
+                    </div>
+                    <div
+                        class="col-lg-5 col-md-5 col-sm-5 wow fadeInRight"
+                        data-wow-delay="300ms"
+                    >
+                        <div class="image">
+                            <img
+                                alt="SEO"
+                                src="images/joshua-mayo-KboMbhlRgGY-unsplash.jpg"
+                            />
                         </div>
                     </div>
                 </div>
             </div>
         </section> -->
 
-        <!-- sign-in -->
-        <section id="sign-in" class="position-relative padding">
+        <!-- CONTENIDO APOYO -->
+        <section
+            id="our-team"
+            class="padding_top half-section-alt teams-border"
+        >
             <div class="container">
                 <div class="row">
-                    <img
-                        src="images/logo-ifresh.svg"
-                        alt="logo"
-                        class="logo-default"
-                    />
-                    <div
-                        class="col-md-12 text-center wow fadeIn"
-                        data-wow-delay="300ms"
-                    >
-                        <h2 class="heading bottom30 darkcolor font-light2">
-                            <span class="font-normal">Comieza tu </span
-                            >aprendizaje
-                            <span class="divider-center"></span>
-                        </h2>
-                        <div class="col-md-8 offset-md-2 heading_space">
-                            <h3>
-                                Para poder ver el contenido es necesario que
-                                inicies sesión con tu cuenta
-                            </h3>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div
+                            class="heading-title heading_space wow fadeInUp"
+                            data-wow-delay="300ms"
+                        >
+                            <!-- <span class="defaultcolor text-center text-md-start"
+                                >Quisque tellus risus, adipisci</span
+                            > -->
+                            <h2
+                                class="darkcolor font-normal text-center text-md-start"
+                            >
+                                Contenido de apoyo
+                            </h2>
                         </div>
                     </div>
-                    <div class="col-lg-6 pe-lg-0 col-md-12 d-none d-lg-flex">
-                        <div class="image login-image h-100">
-                            <img
-                                src="images/joshua-mayo-KboMbhlRgGY-unsplash.jpg"
-                                alt=""
-                                class="w-100 h-100"
-                            />
-                        </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <p
+                            class="heading_space mt-n3 mt-sm-0 text-center text-md-start"
+                        >
+                            Aquí podrás encontrar la información necesaria para
+                            poder lograr tus objetivos de venta y poder
+                            participar para ganar los premios mensuales.
+                        </p>
                     </div>
-                    <div class="col-lg-6 ps-lg-0 col-md-12 whitebox">
-                        <div class="widget logincontainer">
-                            <h3
-                                class="darkcolor bottom30 text-center text-lg-start"
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="ourteam-slider" class="owl-carousel">
+                            <a
+                                href="https://youtu.be/LEVsErXEN1k"
+                                class="iframe"
+                                data-fancybox="gallery"
+                                title="Zoom In"
                             >
-                                Iniciar sesión
-                            </h3>
-                            <form
-                                class="getin_form border-form form-login"
-                                id="login"
-                            >
-                                <div class="row">
-                                    <div class="col-md-12 col-sm-12">
-                                        <div class="form-group bottom35">
-                                            <label
-                                                for="loginEmail"
-                                                class="d-none"
-                                            ></label>
-                                            <input
-                                                class="form-control"
-                                                type="email"
-                                                placeholder="Email:"
-                                                id="loginEmail"
+                                <div class="item">
+                                    <div class="team-box">
+                                        <div class="image">
+                                            <img
+                                                src="images/portada1.png"
+                                                alt=""
                                             />
-                                            <span class="error-input"
-                                                >*Campo obligatorio</span
-                                            >
                                         </div>
-                                    </div>
-                                    <div class="col-md-12 col-sm-12">
-                                        <div class="form-group bottom35">
-                                            <label
-                                                for="loginPass"
-                                                class="d-none"
-                                            ></label>
-                                            <input
-                                                class="form-control"
-                                                type="password"
-                                                placeholder="Password:"
-                                                id="loginPass"
-                                            />
-                                            <span class="error-input"
-                                                >*Campo obligatorio</span
-                                            >
+                                        <div class="team-content">
+                                            <h4 class="darkcolor">
+                                                Huauzontle
+                                            </h4>
+                                            <!-- <p>Agency Owner</p> -->
                                         </div>
-                                    </div>
-                                    <!-- <div class="col-md-12 col-sm-12">
-                                        <div class="form-group bottom30 ml-1">
-                                            <div class="form-check text-left">
-                                                <input
-                                                    class="form-check-input"
-                                                    checked
-                                                    type="checkbox"
-                                                    value=""
-                                                    id="rememberMe"
-                                                />
-                                                <label
-                                                    class="form-check-label"
-                                                    for="rememberMe"
-                                                >
-                                                    Keep Me Signed In
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                    <div class="col-sm-12" id="caja-login">
-                                        <button
-                                            type="submit"
-                                            class="button gradient-btn"
-                                            id="btn-login"
-                                        >
-                                            Iniciar
-                                        </button>
-
-                                        <a
-                                            href="registro.html"
-                                            class="top30 mb-0 text-decoration-underline"
-                                        >
-                                            Crear cuenta</a
-                                        >
                                     </div>
                                 </div>
-                            </form>
+                            </a>
+
+                            <a
+                                href="https://youtu.be/479BF8W8YUo"
+                                class="iframe"
+                                data-fancybox="gallery"
+                                title="Zoom In"
+                            >
+                                <div class="item">
+                                    <div class="team-box">
+                                        <div class="image">
+                                            <img
+                                                src="images/portada2.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="team-content">
+                                            <h4 class="darkcolor">
+                                                Acelga verde
+                                            </h4>
+                                            <!-- <p>Agency Owner</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a
+                                href="https://youtu.be/5YVHizd1Q14"
+                                class="iframe"
+                                data-fancybox="gallery"
+                                title="Zoom In"
+                            >
+                                <div class="item">
+                                    <div class="team-box">
+                                        <div class="image">
+                                            <img
+                                                src="images/portada3.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="team-content">
+                                            <h4 class="darkcolor">Albahaca</h4>
+                                            <!-- <p>Agency Owner</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- sign-in ends -->
 
         <!--Site Footer Here-->
         <footer id="site-footer" class="bgdark padding_top">
@@ -239,6 +798,489 @@
             </div>
         </footer>
         <!--Footer ends-->
+
+        <!-- MODAL -->
+        <div class="modal" tabindex="-1" id="exampleModal">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                    >
+                        X
+                    </button>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div
+                                class="col-lg-6 col-md-12 col-sm-12 pe-lg-0 whitebox"
+                            >
+                                <div class="widget logincontainer">
+                                    <h3
+                                        class="darkcolor bottom35 text-center text-md-start"
+                                    >
+                                        Ingresa tu datos
+                                    </h3>
+                                    <form
+                                        class="getin_form border-form form-registro"
+                                        id="register"
+                                    >
+                                        <div class="row">
+                                            <div class="col-md-12 col-sm-12">
+                                                <div
+                                                    class="form-group bottom35"
+                                                >
+                                                    <label
+                                                        for="registerName"
+                                                        class="d-none"
+                                                    ></label>
+                                                    <input
+                                                        class="form-control"
+                                                        type="text"
+                                                        placeholder="Nombre(s):"
+                                                        id="registerName"
+                                                    />
+                                                    <span class="error-input"
+                                                        >*Campo
+                                                        obligatorio</span
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-sm-12">
+                                                <div
+                                                    class="form-group bottom35"
+                                                >
+                                                    <label
+                                                        for="registerName"
+                                                        class="d-none"
+                                                    ></label>
+                                                    <input
+                                                        class="form-control"
+                                                        type="text"
+                                                        placeholder="Apellido paterno:"
+                                                        id="paterno"
+                                                    />
+                                                    <span class="error-input"
+                                                        >*Campo
+                                                        obligatorio</span
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-sm-12">
+                                                <div
+                                                    class="form-group bottom35"
+                                                >
+                                                    <label
+                                                        for="registerName"
+                                                        class="d-none"
+                                                    ></label>
+                                                    <input
+                                                        class="form-control"
+                                                        type="text"
+                                                        placeholder="Apellido materno:"
+                                                        id="materno"
+                                                    />
+                                                    <span class="error-input"
+                                                        >*Campo
+                                                        obligatorio</span
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-sm-12">
+                                                <div
+                                                    class="form-group bottom35"
+                                                >
+                                                    <label for="registerName"
+                                                        >Tienda</label
+                                                    >
+                                                    <select name="" id="tienda">
+                                                        <option
+                                                            value=""
+                                                            selected
+                                                            hidden
+                                                        >
+                                                            Selecciona
+                                                        </option>
+                                                        <option
+                                                            value="Acapulco"
+                                                        >
+                                                            Acapulco
+                                                        </option>
+                                                        <option
+                                                            value="Aguascalientes "
+                                                        >
+                                                            Aguascalientes
+                                                        </option>
+                                                        <option
+                                                            value="Bosque de las lomas "
+                                                        >
+                                                            Bosque de las lomas
+                                                        </option>
+                                                        <option
+                                                            value="Carretera 57"
+                                                        >
+                                                            Carretera 57
+                                                        </option>
+                                                        <option
+                                                            value="Cerradas de anáhuac"
+                                                        >
+                                                            Cerradas de anáhuac
+                                                        </option>
+                                                        <option
+                                                            value="Chapultepec "
+                                                        >
+                                                            Chapultepec
+                                                        </option>
+                                                        <option
+                                                            value="Chipinque "
+                                                        >
+                                                            Chipinque
+                                                        </option>
+                                                        <option
+                                                            value="Concordia "
+                                                        >
+                                                            Concordia
+                                                        </option>
+                                                        <option value="Contry ">
+                                                            Contry
+                                                        </option>
+                                                        <option value="Cumbres">
+                                                            Cumbres
+                                                        </option>
+                                                        <option
+                                                            value="Ejercito"
+                                                        >
+                                                            Ejercito
+                                                        </option>
+                                                        <option
+                                                            value="El mirador"
+                                                        >
+                                                            El mirador
+                                                        </option>
+                                                        <option value="El uro">
+                                                            El uro
+                                                        </option>
+                                                        <option
+                                                            value="Escobedo "
+                                                        >
+                                                            Escobedo
+                                                        </option>
+                                                        <option
+                                                            value="Gonzalitos"
+                                                        >
+                                                            Gonzalitos
+                                                        </option>
+                                                        <option
+                                                            value="Guadalupe juárez"
+                                                        >
+                                                            Guadalupe juárez
+                                                        </option>
+                                                        <option
+                                                            value="Guadalupe livas"
+                                                        >
+                                                            Guadalupe livas
+                                                        </option>
+                                                        <option value="Hidalgo">
+                                                            Hidalgo
+                                                        </option>
+                                                        <option
+                                                            value="Independencia"
+                                                        >
+                                                            Independencia
+                                                        </option>
+                                                        <option
+                                                            value="Irapuato"
+                                                        >
+                                                            Irapuato
+                                                        </option>
+                                                        <option
+                                                            value="Juriquilla "
+                                                        >
+                                                            Juriquilla
+                                                        </option>
+                                                        <option
+                                                            value="La nogalera "
+                                                        >
+                                                            La nogalera
+                                                        </option>
+                                                        <option
+                                                            value="Las fuentes"
+                                                        >
+                                                            Las fuentes
+                                                        </option>
+                                                        <option
+                                                            value="Las puentes"
+                                                        >
+                                                            Las puentes
+                                                        </option>
+                                                        <option
+                                                            value="Lauro villar"
+                                                        >
+                                                            Lauro villar
+                                                        </option>
+                                                        <option
+                                                            value="León campestre"
+                                                        >
+                                                            León campestre
+                                                        </option>
+                                                        <option
+                                                            value="Linda vista "
+                                                        >
+                                                            Linda vista
+                                                        </option>
+                                                        <option value="Lindoln">
+                                                            Lindoln
+                                                        </option>
+                                                        <option value="Lomas">
+                                                            Lomas
+                                                        </option>
+                                                        <option
+                                                            value="López mateos"
+                                                        >
+                                                            López mateos
+                                                        </option>
+                                                        <option
+                                                            value="Los morales "
+                                                        >
+                                                            Los morales
+                                                        </option>
+                                                        <option
+                                                            value="Los pinos "
+                                                        >
+                                                            Los pinos
+                                                        </option>
+                                                        <option
+                                                            value="Matamoros"
+                                                        >
+                                                            Matamoros
+                                                        </option>
+                                                        <option
+                                                            value="Nuevo laredo"
+                                                        >
+                                                            Nuevo laredo
+                                                        </option>
+                                                        <option value="Pape">
+                                                            Pape
+                                                        </option>
+                                                        <option
+                                                            value="Piedras negras"
+                                                        >
+                                                            Piedras negras
+                                                        </option>
+                                                        <option
+                                                            value="Puerta de hierro"
+                                                        >
+                                                            Puerta de hierro
+                                                        </option>
+                                                        <option value="Refugio">
+                                                            Refugio
+                                                        </option>
+                                                        <option
+                                                            value="Revolución"
+                                                        >
+                                                            Revolución
+                                                        </option>
+                                                        <option
+                                                            value="Reynosa morelos"
+                                                        >
+                                                            Reynosa morelos
+                                                        </option>
+                                                        <option
+                                                            value="Saltillo república"
+                                                        >
+                                                            Saltillo república
+                                                        </option>
+                                                        <option
+                                                            value="San luis potosi"
+                                                        >
+                                                            San luis potosi
+                                                        </option>
+                                                        <option
+                                                            value="San nicolás "
+                                                        >
+                                                            San nicolás
+                                                        </option>
+                                                        <option
+                                                            value="San patricio"
+                                                        >
+                                                            San patricio
+                                                        </option>
+                                                        <option
+                                                            value="San pedro "
+                                                        >
+                                                            San pedro
+                                                        </option>
+                                                        <option
+                                                            value="Santa catarina "
+                                                        >
+                                                            Santa catarina
+                                                        </option>
+                                                        <option
+                                                            value="Santa catarina la puerta"
+                                                        >
+                                                            Santa catarina la
+                                                            puerta
+                                                        </option>
+                                                        <option
+                                                            value="Santa mónica "
+                                                        >
+                                                            Santa mónica
+                                                        </option>
+                                                        <option
+                                                            value="Sendero "
+                                                        >
+                                                            Sendero
+                                                        </option>
+                                                        <option
+                                                            value="Solidaridad"
+                                                        >
+                                                            Solidaridad
+                                                        </option>
+                                                        <option
+                                                            value="Tampico madero "
+                                                        >
+                                                            Tampico madero
+                                                        </option>
+                                                        <option value="Tec">
+                                                            Tec
+                                                        </option>
+                                                        <option
+                                                            value="Torreón senderos"
+                                                        >
+                                                            Torreón senderos
+                                                        </option>
+                                                        <option
+                                                            value="Torres landa "
+                                                        >
+                                                            Torres landa
+                                                        </option>
+                                                        <option
+                                                            value="Valle alto"
+                                                        >
+                                                            Valle alto
+                                                        </option>
+                                                        <option
+                                                            value="Valle oriente"
+                                                        >
+                                                            Valle oriente
+                                                        </option>
+                                                        <option
+                                                            value="Victoria campestre"
+                                                        >
+                                                            Victoria campestre
+                                                        </option>
+                                                    </select>
+
+                                                    <span class="error-input"
+                                                        >*Campo
+                                                        obligatorio</span
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-sm-12">
+                                                <div
+                                                    class="form-group bottom35"
+                                                >
+                                                    <label
+                                                        for="registerEmail"
+                                                        class="d-none"
+                                                    ></label>
+                                                    <input
+                                                        class="form-control"
+                                                        type="email"
+                                                        placeholder="Email:"
+                                                        id="registerEmail"
+                                                    />
+                                                    <span class="error-input"
+                                                        >*Campo
+                                                        obligatorio</span
+                                                    >
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-12 col-sm-12">
+                                                <div
+                                                    class="form-group bottom35"
+                                                >
+                                                    <label
+                                                        for="registerName"
+                                                        class="d-none"
+                                                    ></label>
+                                                    <input
+                                                        class="form-control"
+                                                        type="text"
+                                                        placeholder="Teléfono:"
+                                                        id="telefono"
+                                                    />
+                                                    <span class="error-input"
+                                                        >*Campo
+                                                        obligatorio</span
+                                                    >
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-12">
+                                                <button
+                                                    id="btn-registro"
+                                                    type="submit"
+                                                    class="button gradient-btn w-100"
+                                                >
+                                                    Enviar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-none d-lg-block ps-lg-0">
+                                <div class="image login-image h-100">
+                                    <img
+                                        src="images/joshua-mayo-KboMbhlRgGY-unsplash.jpg"
+                                        alt=""
+                                        class="h-100"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MODAL -->
+        <div class="modal" tabindex="-1" id="modal-success">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                    >
+                        X
+                    </button>
+                    <div class="modal-body">
+                        <img
+                            src="images/logo-ifresh.svg"
+                            alt="logo"
+                            class="logo-default"
+                        />
+                        <h2>GRACIAS POR REGISTRARTE</h2>
+                        <h3>Sigue preparándote y gana increíbles premios</h3>
+                        <button
+                            type="button"
+                            class="button gradient-btn"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                            id="cerrar-success"
+                        >
+                            CERRAR
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="js/jquery-3.6.0.min.js"></script>
